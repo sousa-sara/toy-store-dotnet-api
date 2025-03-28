@@ -47,6 +47,47 @@
 }
 ```
 
+## Exemplos de Teste
+
+**POST**
+- Cadastra um brinquedo
+
+![Modelo](readme-images/post.png)
+
+- Response POST
+
+![Modelo](readme-images/post-response.png)
+
+**GET POR ID**
+- Busca o brinquedo criado através do ID
+
+![Modelo](readme-images/get.png)
+
+- Response GET POR ID
+
+![Modelo](readme-images/get-response.png)
+
+**PUT**
+- Atualiza a classificação e o preço do brinquedo buscando pelo seu ID
+
+![Modelo](readme-images/put.png)
+
+- Response PUT
+
+![Modelo](readme-images/put-response.png)
+
+**DELETE**
+- Deleta o brinquedo pelo seu ID
+
+![Modelo](readme-images/delete.png)
+
+**GET**
+- Busca geral para confirmar se o brinquedo foi deletado
+
+![Modelo](readme-images/get-all.png)
+
+---
+
 ## Validações
 **Nome do brinquedo:** Obrigatório, mínimo 2 caracteres
 
